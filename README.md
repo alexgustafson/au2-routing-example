@@ -10,7 +10,14 @@ Home | Artists
     List   Detail ( id )
        
 ```
-List is the "default" child page of Artists
+List is the "default" child page of Artists. If a user clicks on "Artists" in the menu or breadcrumb he or she whould
+be redirected to the Artist / List page. Clicking on an artist in the list should take the user to the artist detail 
+page. 
+
+problem description:
+
+If the user is on the artist detail page and clicks on the Artist link in the main menu, the user is presented with
+an "empty" artist page, with no content in the au-viewport and no error message in the console.
 
 
 
